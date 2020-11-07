@@ -7,15 +7,22 @@ using Xunit;
 
 namespace MyTimeclock.UnitTests.Core.Entities.ShiftTests
 {
-    public class ShiftTime
+    public class ShiftValidateTime
     {
         [Fact]
-        public void DoesValidateSucceedWithValidTimeEntries()
+        public void ValidateReturnTrueIfTimeInChronologicalOrder()
         {
             ShiftBuilder builder = new ShiftBuilder();
-
-            Assert.True(builder.WithValidTimes().ValidateTime());
+            Shift shift = builder.WithValidTimes();
+            Assert.True(shift.ValidateTime());
         }
 
+        [Fact]
+        public void ValidateReturnFalseIfTimeInReverseOrder()
+        {
+            ShiftBuilder builder = new ShiftBuilder();
+            Shift shift = builder.WithTimesInReverseOrder();
+            Assert.False(shift.ValidateTime());
+        }
     }
 }

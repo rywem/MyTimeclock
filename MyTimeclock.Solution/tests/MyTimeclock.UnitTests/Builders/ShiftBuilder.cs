@@ -13,10 +13,19 @@ namespace MyTimeclock.UnitTests.Builders
         public Shift WithValidTimes()
         {
             DateTime now = DateTime.Now;
-            Shift shift = new Shift(1, new TimeEntry(now.AddHours(-2), MyTimeclock.Core.Enums.TimeEntryType.In), 
+            _shift = new Shift(1, new TimeEntry(now.AddHours(-2), MyTimeclock.Core.Enums.TimeEntryType.In), 
                 new TimeEntry(now.AddHours(-1), MyTimeclock.Core.Enums.TimeEntryType.Out));
 
-            return shift;
+            return _shift;
+        }
+
+        public Shift WithTimesInReverseOrder()
+        {
+            DateTime now = DateTime.Now;
+            _shift = new Shift(1, new TimeEntry(now.AddHours(-1), MyTimeclock.Core.Enums.TimeEntryType.In),
+                new TimeEntry(now.AddHours(-2), MyTimeclock.Core.Enums.TimeEntryType.Out));
+
+            return _shift;
         }
     }
 }
