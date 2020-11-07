@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace MyTimeclock.MVC.Data
+namespace MyTimeclock.Infrastructure.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
