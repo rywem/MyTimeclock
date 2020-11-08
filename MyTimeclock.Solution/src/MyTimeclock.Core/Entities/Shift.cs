@@ -21,6 +21,6 @@ namespace MyTimeclock.Core.Entities
         public bool ValidateTime()
         {
             return TimeIn.Time < TimeOut.Time;
-        } 
+        }
     }
 }
