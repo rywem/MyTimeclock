@@ -7,17 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5CD719A-9F2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED22DD5D-2023-4BC3-9D27-E83BB68E9446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTimeclock.Core", "src\MyTimeclock.Core\MyTimeclock.Core.csproj", "{2EFAB70C-888F-40E7-9F20-1C35A479E708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTimeclock.Core", "src\MyTimeclock.Core\MyTimeclock.Core.csproj", "{2EFAB70C-888F-40E7-9F20-1C35A479E708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTimclock.Infrastructure", "src\MyTimclock.Infrastructure\MyTimclock.Infrastructure.csproj", "{FEA76CC6-28EB-43E1-8424-6454E870563D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTimeclock.Infrastructure", "src\MyTimeclock.Infrastructure\MyTimeclock.Infrastructure.csproj", "{FEA76CC6-28EB-43E1-8424-6454E870563D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTimeclock.SharedKernal", "src\MyTimeclock.SharedKernal\MyTimeclock.SharedKernal.csproj", "{54E32A04-FCB9-4F8F-AFE0-0F6BDEB700D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTimeclock.MVC", "src\MyTimeclock.MVC\MyTimeclock.MVC.csproj", "{332B17F1-5ED9-4843-8DF1-45934B7CC029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTimeclock.MVC", "src\MyTimeclock.MVC\MyTimeclock.MVC.csproj", "{332B17F1-5ED9-4843-8DF1-45934B7CC029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTimeclock.UnitTests", "tests\MyTimeclock.UnitTests\MyTimeclock.UnitTests.csproj", "{78A769AC-B2C3-4650-A60F-F05F1AD5F3BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTimeclock.UnitTests", "tests\MyTimeclock.UnitTests\MyTimeclock.UnitTests.csproj", "{78A769AC-B2C3-4650-A60F-F05F1AD5F3BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTimeclock.IntegrationTests", "tests\MyTimeclock.IntegrationTests\MyTimeclock.IntegrationTests.csproj", "{DEA1C70F-5CBD-469E-BEFE-541EAC97CDC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTimeclock.IntegrationTests", "tests\MyTimeclock.IntegrationTests\MyTimeclock.IntegrationTests.csproj", "{DEA1C70F-5CBD-469E-BEFE-541EAC97CDC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
